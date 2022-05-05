@@ -1,0 +1,84 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+
+}
+
+header #logo{
+    padding: 40px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container section{
+    padding-right: 10px;
+}
+
+#mensagem1{
+    font-size: 32px;
+    line-height: 48px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+ ::placeholder{
+    color: darkblue;
+}
+#mensagem2{
+    font-size: 15px;
+    border-radius: 8px;
+    background-image: url(/imgs/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.botoes{
+    padding-top: 10px;
+    text-align: center;
+}
+.btn-encriptar{
+    border: none;
+    height: 40px;
+    width: 160px;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 5px;
+    transition: 1.5s;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-encriptar:hover{
+    background-color: #225ba0;
+}
+.btn-descriptar{
+    border:none;
+    height: 40px;
+    width: 160px;
+    background-color: #D8DFE8;
+    color:#0A3871;
+    border-radius: 5px;
+    transition: 1.5s;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-descriptar:hover{
+    background-color: #9eb0c6;
+}
+.obs-msg{
+    text-align: center;
+    padding-bottom: 5px;
+}
