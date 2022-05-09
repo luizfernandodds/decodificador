@@ -17,19 +17,22 @@
         
         <div class="container">
                 <section>
-                    <textarea id="mensagem1" cols="40" rows="10" placeholder="digite seu texto:" ></textarea>
+                    <textarea class="input-texto" cols="40" rows="10" placeholder="digite seu texto:" ></textarea>
                     <div class="botoes">
                         <div class="obs-msg">
                             <h6>Apenas letras minusculas e sem acentos</h6>
                         </div>
-                    <button class="btn-encriptar">Encriptar</button>
-                    <button class="btn-descriptar">Descriptar</button>  
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-descriptar" onclick="btnDesencriptar()">Descriptar</button>  
                  </div>
                 
                 </section>
 
                 <section>
-                    <textarea id="mensagem2" cols="43" rows="30" placeholder="Nenhuma mensagem encontrada"></textarea>
+                    <textarea class="mensagem" cols="43" rows="26" placeholder="Nenhuma mensagem encontrada"></textarea>
+                        <div class="copy">
+                            <button class="btn-copy" onclick="copy()">Copiar</button>
+                        </div>
                 </section>
 
          </div>
