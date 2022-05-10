@@ -6,6 +6,7 @@ function copy() {
     let copyText = document.querySelector(".mensagem");
     copyText.select();
     document.execCommand("copy");
+    copySuccessfully();
   }
 
 function btnEncriptar(){
