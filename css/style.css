@@ -13,7 +13,7 @@ body{
 }
 
 header #logo{
-    padding: 40px;
+    padding: 10px 0px 10px 60px;
 
 }
 
@@ -98,4 +98,9 @@ header #logo{
 .obs-msg{
     text-align: center;
     padding-bottom: 5px;
+}
+
+footer .copyright{
+    text-align: center;
+    padding-top: 45px;
 }
